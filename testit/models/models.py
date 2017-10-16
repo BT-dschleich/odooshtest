@@ -5,7 +5,7 @@ import odoo
 import logging
 _logger = logging.getLogger(__name__)
 addonspath = odoo.tools.config['addons_path']
-_logger.debug('DEBUG ADDONSPATH: %s' % addonspath)
+_logger.error('DEBUG ADDONSPATH: %s' % addonspath)
 # class testit(models.Model):
 #     _name = 'testit.testit'
 
